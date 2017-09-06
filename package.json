@@ -1,10 +1,10 @@
 {
   "name": "@luchopintado/how-to-npm-workshop",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "how-to-npm exercises",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "LP",
   "license": "ISC",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/luchopintado/how-to-npm-workshop/issues"
   },
-  "homepage": "https://github.com/luchopintado/how-to-npm-workshop#readme"
+  "homepage": "https://github.com/luchopintado/how-to-npm-workshop#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
